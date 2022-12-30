@@ -1,0 +1,40 @@
+.list-items{
+    list-style: none;
+    margin-left:900px;
+}
+.list-items > li{
+font-size: 25px;
+    color: white;
+
+
+}
+.list-items2{
+    font-size: 20px;
+    
+}
+.list-items2 >li{
+    padding: 5px;
+
+}
+.list-items2 li::before {
+    content: '\2022';
+    color: skyblue;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.24em;
+  }
+.nav-items{
+    display: flex;
+    background-color: rgb(29, 29, 29);
+}
+.nav-items .span{
+    color: skyblue;
+    font-size: 35px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.full{
+    background-color: rgb(25, 24, 24);
+    color: white;
+}
